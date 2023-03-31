@@ -1,0 +1,79 @@
+body {
+  transform: scale(.8);
+  border: solid black 10px;
+  background-color: burlywood;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 3px;
+  color: green;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+td, th, tr {
+  border: 3px solid greenyellow;
+  padding: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: brown;
+}
+
+input, select{
+  font-family: 'Courier New', Courier, monospace;
+  width: 16%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  background-color: #3CBC8D;
+  color: yellow;
+}
+#AddButton, #Save{
+  font-family: 'Courier New', Courier, monospace;
+  width: 15%;
+  padding: 12px 20px;
+  background-color: skyblue;
+  color: white;
+}
+footer{
+  font-size: 20px;
+}
+
+#Home, #Add{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #4CAF50;
+  border: 3px solid brown;
+  color: blue;
+  padding: 12px 12px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+}
+#Home:hover, #Add:hover{
+  background-color: yellow;
+}
+
+tr:nth-child(even){background-color: limegreen;}
+
+tr:hover {background-color: skyblue;}
+
+th {
+  text-align: left;
+  background-color: khaki;
+  color: orange;
+  border: 3px solid greenyellow;
+  text-align: center;
+}
